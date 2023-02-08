@@ -16,7 +16,6 @@ namespace NerdStore.Vendas.Application.Tests
             pedido.AdicionarItem(pedidoItem);
             //Assert
             Assert.Equal(200, pedido.ValorTotal);
-
         }
     }
 }

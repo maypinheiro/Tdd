@@ -11,6 +11,7 @@ namespace NerdStore
         {
             _pedidoItens = new List<PedidoItem>();
         }
+
         public decimal ValorTotal { get; private set; }
         private readonly List<PedidoItem> _pedidoItens;
         public IReadOnlyCollection<PedidoItem> PedidoItens => _pedidoItens;
